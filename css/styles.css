@@ -1,0 +1,159 @@
+body {
+    font-family: "Montserrat";
+  
+  }
+  
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  
+  h1 {
+      font-family: Montserrat-bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+  
+  }
+  
+  h2,h3{
+    font-family: Montserrat-bold;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  
+  .container-fluid {
+    padding: 3% 15% 7%;
+  
+  }
+  
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link{
+  font-size: 1.2rem;
+    font-family: Montserrat-light;
+  }
+  
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  
+  .title-image{
+    width: 50%;
+    transform: rotate(26deg);
+    position:absolute;
+    right: 38%;
+  
+  }
+  
+  .bold-title{
+    font-family: Montserrat-bold;
+  }
+  
+  
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+  position: relative;
+  z-index: 1;
+  }
+  
+  .feature-box{
+    text-align: center;
+  
+  }
+  
+  p{
+    color: grey;
+  }
+  
+  .icon{
+    color:#ef8172;
+    margin-bottom: 0.9rem;
+  }
+  
+  .icon:hover{
+    color: #ff4c68;
+  }
+  
+  /*testimonials section */
+  
+  #testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+  
+  #carouselExampleIndicators{
+  padding: 7% 15%;
+  }
+  
+  
+  .testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  #press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+  
+  }
+  
+  #pricing{
+    padding: 100px;
+  text-align: center;
+  }
+  
+  .pricing-column{
+    padding: 3% 2%;
+    }
+  
+  @media (max-width: 992px) {
+    .title-image{
+      position: static;
+      transform: rotate(0);
+  
+    }
+     #title{
+       text-align: center;
+     }
+  
+  }
+  #cta{
+    padding: 5% 7% 5%;
+    background-color: #ff4c68;
+    text-align: center;
+  }
+  
+  #footer{
+    text-align: center;
+    text-decoration-style: solid;
+    font-weight: bold;
+  }
